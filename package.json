@@ -1,0 +1,42 @@
+{
+  "name": "chatbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash": "^4.14.157",
+    "@types/mongoose": "^5.7.30",
+    "@types/multer": "^1.4.3",
+    "@types/socket.io": "^2.1.8",
+    "@types/validator": "^13.0.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.15.0",
+    "dotenv": "^8.2.0",
+    "express-validator": "^6.6.0",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.22",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "socket.io": "^2.3.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.19",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
